@@ -2,11 +2,11 @@
 layout: about
 permalink: /
 title: <strong>Shih-Chieh (Jerry)</strong> Hsiung
-description: <a href="https://www.ri.cmu.edu">Robotics Insitute, Carnegie Mellon University</a>. jerryhsiung88@gmail.com.
+description: <a href="https://www.ri.cmu.edu">Robotics Insitute, Carnegie Mellon University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   address: >
     <p>Newell-Simon Hall 2204</p>
     <p>5000 Forbes Avenue</p>
@@ -21,3 +21,4 @@ I was a member of the [Robot Perception Lab (RPL)](http://rpl.ri.cmu.edu){:targe
 My research interests lie in the intersection of information theory, probabilistic theory and nonlinear optimization in the applications 
 of mobile robotics. During my time at RPL, my research focused on improving optimization methods in visual-inertial state estimation. 
 Prior to CMU, I received my B.S. in Computer Science from Harvey Mudd College, where I was a member of the [Lab for Autonomous and Intelligent Robotics (LAIR)](https://www.lair.hmc.edu){:target="\_blank"}.
+{: .text-justify}
