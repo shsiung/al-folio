@@ -2,22 +2,22 @@
 layout: about
 permalink: /
 title: <strong>Shih-Chieh (Jerry)</strong> Hsiung
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://www.ri.cmu.edu">Robotics Insitute, Carnegie Mellon University</a>. jerryhsiung88@gmail.com.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Newell-Simon Hall 2204</p>
+    <p>5000 Forbes Avenue</p>
+    <p>Pittsburgh, PA 15213</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated from the Robotics Institute, Carnegie Mellon University as a Master of Robotics student in August 2018. 
+I was a member of the [Robot Perception Lab (RPL)](http://rpl.ri.cmu.edu){:target="\_blank"} under the supervision of Prof. Michael Kaess.
+My research interests lie in the intersection of information theory, probabilistic theory and nonlinear optimization in the applications 
+of mobile robotics. During my time at RPL, my research focused on improving optimization methods in visual-inertial state estimation. 
+Prior to CMU, I received my B.S. in Computer Science from Harvey Mudd College, where I was a member of the [Lab for Autonomous and Intelligent Robotics (LAIR)](https://www.lair.hmc.edu){:target="\_blank"}.

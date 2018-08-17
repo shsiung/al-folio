@@ -1,64 +1,68 @@
----
----
+% journals
+@string{AURO  = "Autonomous Robots (AURO)"}
+@string{IJRR  = "Intl. J. of Robotics Research (IJRR)"}
+@string{JAIS  = "AIAA J. of Aerospace Information Systems (JAIS)"}
+@string{RAL   = "IEEE Robotics and Automation Letters (RA-L)"}
+@string{RAS   = "Journal of Robotics and Autonomous Systems (RAS)"}
+@string{TRO   = "IEEE Trans. on Robotics (TRO)"}
+@string{FNT   = "Foundations and Trends in Robotics"}
+@string{JFR   = "Journal of Field Robotics (JFR)"}
 
-@string{aps = {American Physical Society,}}
+% conferences
+@string{ECCV = "Eur. Conf. on Computer Vision (ECCV)"}
+@string{ECMR = "European Conference on Mobile Robots (ECMR)"}
+@string{ICAR = "IEEE Intl. Conf. on Advanced Robotics (ICAR)"}
+@string{ICASSP = "Intl. Conf. on Acoustics, Speech, and Signal Proc. (ICASSP)"}
+@string{ICCV = "Intl. Conf. on Computer Vision (ICCV)"}
+@string{ICRA = "IEEE Intl. Conf. on Robotics and Automation (ICRA)"}
+@string{IJCAI = "Intl. Joint Conf. on Artificial Intelligence (IJCAI)"}
+@string{IROS = "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)"}
+@string{ISRR = "Intl. Symposium on Robotics Research (ISRR)"}
+@string{FSR = "Conf. on Field and Service Robotics (FSR)"}
+@string{FUSION = "Intl. Conf. on Information Fusion (FUSION)"}
+@string{RSS = "Robotics: Science and Systems (RSS)"}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{Lin17jfr,
+author = {Y. Lin and J. Hsiung and R. Piersall and C. White and C. G. Lowe and C. M. Clark},
+title = {A Multi-Autonomous Underwater Vehicle System for Autonomous Tracking of Marine Life},
+journal = JFR,
+volume = {34},
+number = {4},
+pages = {757-774},
+year = 2017,
+doi = {10.1002/rob.21668},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21668},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21668},
+abstract = {This paper presents a multi-autonomous underwater vehicle system capable of cooperatively and autonomously tracking and following marine targets (i.e., fish) tagged with an acoustic transmitter. The AUVs have been equipped with stereo-hydrophones that receive signals broadcasted by the acoustic transmitter tags to enable real-time calculation of bearing-to-tag and distance-to-tag measurements. These measurements are shared between AUVs via acoustic modem and fused within each AUV's particle filter for estimating the target's position. The AUVs use a leader/follower multi-AUV control system to enable the AUVs to drive toward the estimated target state by following collision-free paths. Once within the local area of the target, the AUVs circumnavigate the target state until it moves to another area. The system builds on previous work by incorporating a new SmartTag package that can be attached to an individual's dorsal fin. The SmartTag houses a full inertial measurement unit (INU), video logger, acoustic transmitter, and timed release mechanism. After real-time AUV tracking experiments, the SmartTag is recovered. Logged IMU data are fused with logged AUV-obtained acoustic tag measurements within a particle filter to improve state estimation accuracy. This improvement is validated through a series of multi-AUV shark and boat tracking experiments conducted at Santa Catalina Island, California. When compared with previous work that did not use the SmartTag package, results demonstrated a decrease in mean position estimation error of 25–75\%, tag orientation estimation errors dropped from 80° to 30° , the sensitivity of mean position error with respect to distance to the tag was less by a factor of 50, and the sensitivity of mean position error with respect to acoustic signal reception frequency to the tag was 25 times less. These statistics demonstrate a large improvement in the system's robustness when the SmartTag package is used.}
 }
 
-@article{einstein1950meaning,
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@InProceedings{Hsiung18wms,
+  author =       {J. Hsiung and A. Tallaksen and L. Papincak and
+                  S. Suresh and H. Jones and W. Whittaker and
+                  M. Kaess},
+  fullauthor =   {Jerry Hsiung and Andrew Tallaksen and Lawrence
+                  Papincak and Sudharshan Suresh and Heather Jones and
+                  William Whittaker and Michael Kaess},
+  title =        {Localized Imaging and Mapping for Underwater Fuel
+                  Storage Basins},
+  booktitle =    {Proceedings of the Symposium on Waste Management},
+  address =      {Phoenix, Arizona},
+  month =        mar,
+  year =         2018,
+  note =         {to appear},
+  abstract = {Current methods for inspection of spent nuclear fuel storage basins involve lowering a single camera for visual inspection of walls and other structures. We present a localized inspection solution where the images are automatically annotated by localization information and a 3D model of the inspected area is generated. The system consists of an underwater sensor pod containing a stereo pair of cameras, light source, inertial measurement unit, and a pressure sensor. The sensors are time synchronized to provide precise measurements. We describe both the sensor pod and the algorithms that keep the pod localized. Preliminary results from in-air testing of a prototype are presented.},
 }
 
-@article{PhysRev.47.777,
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+@INPROCEEDINGS{Smith16iros, 
+author={K. D. Smith and J. Hsiung and C. White and C. G. Lowe and C. M. Clark}, 
+booktitle=IROS, 
+title={Stochastic modeling and control for tracking the periodic movement of marine animals via AUVs}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={3101-3107}, 
+abstract={This paper presents a graph-based model of periodic migrations of tagged fish populations and two multi-AUV stochastic controllers developed to track these fish from the model. The model presented in this paper characterizes patterns in the historical movement of tagged fish and is used to develop stochastic tracking by a “model based control” and a “feedback control”. These two controllers permit swarms of AUVs to track the transition probabilities of the tagged population between vertices of the model. To validate these controllers, a periodic model is developed for a simulated population based on three months of geolocation data from a kelp bass (Paralabrax clathratus), and AUV teams utilizing both controllers are simulated in tracking this population. Results show the viability of stochastic controls for multi-AUV tracking of populations whose behavior is well-approximated by the graph-based model. Preliminary trials with physical AUV systems indicate the plausibility of hardware implementation.}, 
+keywords={aquaculture;autonomous underwater vehicles;control system synthesis;feedback;graph theory;multi-robot systems;stochastic processes;stochastic systems;stochastic modeling;periodic movement tracking control;marine animals;AUV;graph-based periodic migration model;tagged fish populations;multiAUV stochastic controllers;stochastic tracking;model based control;feedback control;AUV swarm;transition probabilities;tagged population;periodic model;simulated population;geolocation data;kelp bass;Paralabrax clathratus;AUV teams;multiAUV tracking;physical AUV systems;Sociology;Statistics;Tracking;Stochastic processes;Control systems;Feedback control;Mathematical model}, 
+doi={10.1109/IROS.2016.7759480}, 
+ISSN={2153-0866}, 
+month={Oct},}
