@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Shih-Chieh (Jerry)</strong> Hsiung
+title: <strong>Jerry (Shih-Chieh)</strong> Hsiung
 description: <a href="https://www.ri.cmu.edu">Robotics Insitute, Carnegie Mellon University</a>.
 
 profile:
