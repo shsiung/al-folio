@@ -26,7 +26,7 @@ description: A growing collection of your cool projects.
 </div>
 {% else %}
 
-<div class="project ">
+<div class="project">
     <div class="thumbnail">
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
         {% if project.img %}
