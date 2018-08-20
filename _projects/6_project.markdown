@@ -2,7 +2,7 @@
 layout: page
 title: Project 6
 description: a project with no image
-img:
+img: /assets/img/3.jpg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
@@ -50,6 +50,6 @@ You can also put regular text between your rows of images. Say you wanted to wri
 The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
 
 <div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
+    <img class="col two left" src="/assets/img/6.jpg"/>
+    <img class="col one left" src="/assets/img/11.jpg"/>
 </div>

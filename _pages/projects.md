@@ -50,7 +50,7 @@ description: A growing collection of your cool projects.
 {% for post in site.projects %}
 <article class="project_post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
