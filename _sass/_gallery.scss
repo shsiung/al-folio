@@ -26,6 +26,14 @@ figcaption {
 .one {
     width:33.33%;
 }
+.aboutimg {
+    width:33.33%;
+    border-radius: 50%;
+    transition: transform 0.35s;
+    &:hover {
+      transform: scale3d(0.90,0.90,1);
+    }
+}
 .two {
     width: 66.66%;
 }
