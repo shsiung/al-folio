@@ -27,7 +27,6 @@
             {% endif %}
           {% endif %}
         {% else %}
-          and
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}
@@ -74,6 +73,9 @@
   {% endif %}
   {% if entry.slides %}
     [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+  {% endif %}
+  {% if entry.talk %}
+    [<a href="{{ entry.talk }}" target="_blank">Presentation</a>]
   {% endif %}
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]

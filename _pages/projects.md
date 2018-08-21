@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Researches/Projects
+title: Projects
 permalink: /projects/
-description: All the cool stuff I have done.
+description: My past and current projects
 ---
 <!-- 
 {% for project in site.projects %}
