@@ -4,6 +4,7 @@ title: Constraint Optimization using Factor Graph
 description: another without an image
 img: /assets/img/4.jpg
 date: 2018-08-20 10:32:20 +0300
+timeline: 2017
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
