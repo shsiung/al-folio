@@ -6,7 +6,7 @@ description: <a href="https://www.ri.cmu.edu">Robotics Insitute, Carnegie Mellon
 
 profile:
   align: right
-  image: profile_zoom.jpg
+  image: profile.jpg
   address: >
     <p>Newell-Simon Hall 2204</p>
     <p>5000 Forbes Avenue</p>
