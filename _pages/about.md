@@ -24,4 +24,4 @@ My research interests lie in the intersection of information theory, probabilist
 Prior to CMU, I received my B.S. in Computer Science from the Harvey Mudd College, where I was a member of the [Lab for Autonomous and Intelligent Robotics (LAIR)](https://www.lair.hmc.edu){:target="\_blank"}.
 {: .text-justify}
 
-<center><a href="{{ '/assets/pdf/resume.pdf' | prepend: site.baseurl | prepend: site.url }}">[Resume]</a></center>
+<center><a href="{{ '/assets/pdf/resume.pdf' | prepend: site.baseurl | prepend: site.url }}"><ins>[Resume]</ins></a></center>
