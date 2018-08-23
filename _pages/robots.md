@@ -22,7 +22,7 @@ description: This list of the robots I have worked with.
 <article class="post-robot">
 <div class="post-thumbnail" style="background-image: url({{ site.baseurl }}/assets/robot/beluga2.jpg)"></div>
 <div class="robot-description">
-    <h2 class="post-title">Custom Built Underwater Robot (Beluga)</h2>
+    <h2 class="post-title">Custom-Built Underwater Robot (Beluga)</h2>
     <p class="post-snippet">I worked with a team of my friends and Harvey Mudd College undergraduate teams to build a custom AUV for research purposes. Everything is designed and manufactured by ourselves.</p>
         <ul class="robot-sensors">
             <li><a href="https://www.vectornav.com/products/vn-100">VectorNav VN-100 IMU</a></li>
@@ -58,6 +58,29 @@ description: This list of the robots I have worked with.
             <li>Lidar</li>
             <li>Camera</li>
             <li>GPS</li>
+        </ul>
+</div>
+</article>
+
+<article class="post-robot">
+<div class="post-thumbnail" style="background-image: url({{ site.baseurl }}/assets/robot/battlebot.jpg)"></div>
+<div class="robot-description">
+    <h2 class="post-title">Custom-Built BattleBot (Robespierre)</h2>
+    <p class="post-snippet">I worked with a team of friends on a battle bot called Robespierre! We competed at the Battlebot event in 2013. </p>
+        <ul class="robot-sensors">
+            <li>A large spinning blade</li>
+        </ul>
+</div>
+</article>
+
+<article class="post-robot">
+<div class="post-thumbnail" style="background-image: url({{ site.baseurl }}/assets/robot/neato.png)"></div>
+<div class="robot-description">
+    <h2 class="post-title">Modified Neato</h2>
+    <p class="post-snippet">I worked with a modified Neato robot from Neato Robotics to do basic navigation tasks </p>
+        <ul class="robot-sensors">
+            <li>2D Lidar</li>
+            <li>Microsoft Kinect</li>
         </ul>
 </div>
 </article>
