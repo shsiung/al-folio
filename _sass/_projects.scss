@@ -64,7 +64,7 @@
   flex-direction: row;
   align-items: stretch;
   min-height: 11rem;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   transition: all .3s ease;
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
@@ -86,19 +86,24 @@
     width: 70%;
     .post-date,
     .post-words {
-      font-size: 12px;
+      font-size: 14px;
+      text-align: right;
     }
     .post-title {
       margin: 0 0 10px;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 400;
       a {
         text-decoration: none;
-        color: $blue-1;
+        color: $theme-color;
       }
     }
     p {
       margin-top: 0;
+    }
+    .post-snippet {
+      font-size: 14px;
+      color: $grey-color;
     }
   }
 }

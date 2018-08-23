@@ -70,8 +70,8 @@ description: My past and current projects
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-words">{{post.timeline}}</span>
+    <p class="post-snippet">{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <p class="post-words">[{{post.timeline}}]</p>
   </div>
 </article>
 {% endfor %}
