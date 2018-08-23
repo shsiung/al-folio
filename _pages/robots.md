@@ -2,9 +2,8 @@
 layout: page
 permalink: /robots/
 title: Robots
-description: This list of the robots I have worked with.
+description: This list of the robots I have built and worked on.
 ---
-
 <article class="post-robot">
 <div class="post-thumbnail" style="background-image: url({{ site.baseurl }}/assets/robot/autel_drone.jpg)"></div>
 <div class="robot-description">
