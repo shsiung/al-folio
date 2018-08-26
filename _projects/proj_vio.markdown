@@ -17,7 +17,7 @@ Visual-inertial odometry (VIO) is an algorithm that provides a robot's odometry 
 
 Typically, the existing methods employ either a *filtering* method based on the extended Kalman filter (EKF), or an *optimization* method. My research focuses on the **fixed-lag optimization-based** method (or fixed-lag smoothing) using **factor graph**[^fn1], which is the state-of-the-art method in solving a VIO problem. 
 
-A fixed-lag smoother estimate a fixed window of variables at a given time, so the optimization size is constant as shown in below graphs. The left graph shows the blue active window of states being estimated, the right graph shows the correcponding factor graph.
+A fixed-lag smoother estimate a fixed window of variables at a given time, so the optimization size is constant as shown in below graphs. Below are two graphs that illustrate a fixed-lag smoother is employed in estimating a robot trajectory. The left graph shows the blue active window of states being estimated, the right graph shows the correcponding factor graph.
 
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/gif/window_traj.gif" alt="" title="example image"/>
@@ -26,12 +26,12 @@ A fixed-lag smoother estimate a fixed window of variables at a given time, so th
 
 [^fn1]: [Factor Graph for Robot Perception Book](https://www.nowpublishers.com/article/Details/ROB-043){:target="\_blank"}  
 
-In my thesis work, I address two challenges in the fixed-lag smoothing framework --- Efficiency and Nonlinearity. In particular, there are two major contributions:
+In my thesis, I address two challenges in the fixed-lag smoothing framework --- Efficiency and Nonlinearity. In particular, there are two major contributions:
 
   1. Employing information sparsification to address the efficiency issue.
   2. Employing group affine property to address the consistency problem
 
-For more details, please check on my Master Thesis and IROS publication.
+For more details, please check my <a href="{{ '/assets/pdf/Hsiung18thesis.pdf' | prepend: site.baseurl | prepend: site.url }}">Master Thesis</a>  and my 2018 <a href="{{ '/assets/pdf/Hsiung18thesis.pdf' | prepend: site.baseurl | prepend: site.url }}">IROS paper</a>.
 
 <!-- 
 
