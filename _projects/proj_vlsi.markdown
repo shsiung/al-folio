@@ -6,4 +6,4 @@ img: /assets/img/proj_vlsi.png
 timeline: 2015
 date: 2018-08-22 13:32:20 +0300
 ---
-To be built.
+To be added.
