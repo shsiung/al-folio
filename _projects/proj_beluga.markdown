@@ -8,7 +8,7 @@ timeline: 2016 - Present
 ---
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/beluga_rendered.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/beluga_cad.jpg" alt="" title="example image"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/beluga_real.jpg" alt="" title="example image"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/beluga.gif" alt="" title="example image"/>
 </div>
@@ -28,10 +28,20 @@ Everything, except the sensors, are designed and manufactured by us in the span 
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/cad2.gif" alt="" title="example image"/>
 </div>
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/pcb1.jpg" alt="" title="example image"/>
-    <img class="col two left" src="{{ site.baseurl }}/assets/proj_beluga/pcb2.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/pcb.jpg" alt="" title="example image"/>
 </div>
-
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/make1.jpg" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/leak.jpg" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/assem1.jpg" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/tanktest.jpg" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/watertest.jpg" alt="" title="example image"/>
 </div>
