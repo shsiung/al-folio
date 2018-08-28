@@ -13,7 +13,7 @@ timeline: 2016 - Present
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/beluga.gif" alt="" title="example image"/>
 </div>
 
-In 2016, a group of my friends and I decided to build a completely custom AUV for research and commercial applications. We were motivated by the fact that available commercial AUVs are costly (hundreds of thousand dollars if not more) and difficult to modify.
+In 2016, a group of my friends and I decided to build a completely custom AUV for research and commercial applications. We were motivated by the fact that available commercial AUVs are costly (hundreds of thousand dollars if not millions) and difficult to modify.
 
 The goals for our new AUV, named the *Beluga*, are
   1. Easy to repair and customize
@@ -21,17 +21,24 @@ The goals for our new AUV, named the *Beluga*, are
   3. Low-cost 
   4. Running the robotics operating system (ROS)
 
-Everything, except the sensors, are designed and manufactured by us in the span of two and a half months. Below is the photo gallery of the project.
-
+Every components of the AUV, except the sensors, are designed and manufactured by us during May 2016 to July 2016. Below is a subset of photos that we took during the construction and testing process:
 <div class="img_row">
     <img class="col two left" src="{{ site.baseurl }}/assets/proj_beluga/cad1.jpg" alt="" title="example image"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/cad2.gif" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/controller.gif" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/surface1.gif" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/surface2.gif" alt="" title="example image"/>
 </div>
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/pcb.jpg" alt="" title="example image"/>
 </div>
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/make1.jpg" alt="" title="example image"/>
+</div>
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/make2.jpg" alt="" title="example image"/>
 </div>
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/proj_beluga/leak.jpg" alt="" title="example image"/>
