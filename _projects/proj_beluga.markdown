@@ -21,7 +21,17 @@ The goals for our new AUV, named the *Beluga*, are
   3. Low-cost 
   4. Running the robotics operating system (ROS)
 
-Every components of the AUV, except the sensors, are designed and manufactured by us during May 2016 to July 2016. Below is a subset of photos that we took during the construction and testing process:
+Every components of the AUV, except the sensors, are designed and manufactured by us during May 2016 to July 2016. 
+
+- - -
+### Takeaways:
+  1. How to plan a project and execute the plan under time constraint.
+  2. Do things in parallel.
+  3. How to build a robot from the ground up.
+
+- - -
+
+Below is a subset of photos that we took during the construction and testing process:
 <div class="img_row">
     <img class="col two left" src="{{ site.baseurl }}/assets/proj_beluga/cad1.jpg" alt="" title="example image"/>
     <img class="col one left" src="{{ site.baseurl }}/assets/proj_beluga/cad2.gif" alt="" title="example image"/>

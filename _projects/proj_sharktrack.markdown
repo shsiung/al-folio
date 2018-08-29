@@ -11,11 +11,14 @@ My undergraduate research is [Multi-robot Shark Tracking](https://www.lair.hmc.e
 
 In summer 2015, I was grateful to be selected as an <a href="https://dornsife.usc.edu/wrigley/wrigleysummerfellowship/">USC Wrigley Summer Fellow</a>, and spent a summer at Catalina Island to perform field tests. Below are video footages of our experiments.
 
-What I learned during the project:
+- - -
+### Takeaways:
   1. The world is not perfect. There are un-modeled noises and **disturbances**.
   2. Field experiments are expensive. **Preparations** are very important.
-  3. Impromptu **problem solving** skills (hacks) are very useful skills to have.
-  4. 
+  3. Impromptu **problem solving** skills (hacks) are very useful.
+  4. **Simulations** are also important.
+
+- - -
 
 <div class="img_row">
     <img class="col half left" src="{{ site.baseurl }}/assets/proj_shark/sharktrack3.gif" alt="" title="example image"/>
