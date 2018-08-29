@@ -18,7 +18,9 @@ the entire robot ourselves.
   3. The difference between a delicate design and a robust design.
 
 - - -
-
+<div class="img_row"> 
+    <img class="col three left" src="{{ site.baseurl }}/assets/proj_battlebot/make3.jpg" alt="" title="example image"/>
+</div> 
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/proj_battlebot/make1.jpg" alt="" title="example image"/>
 </div>
