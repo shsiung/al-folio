@@ -16,10 +16,10 @@ news: true
 social: true
 ---
 
-I received my M.S. in Robotics from the Robotics Institute, Carnegie Mellon University in August 2018. 
-I was a member of the [Robot Perception Lab (RPL)](http://rpl.ri.cmu.edu){:target="\_blank"} under the supervision of Prof. Michael Kaess.
+My research interests lie in the intersection of **information theory**, **probabilistic theory** and **nonlinear optimization** in the applications of mobile robotics. 
 
-My research interests lie in the intersection of information theory, probabilistic theory and nonlinear optimization in the applications of mobile robotics. My master research focused on improving the optimization methods in visual-inertial state estimation. 
+I received my M.S. in Robotics from the Robotics Institute, Carnegie Mellon University in August 2018. 
+I was a member of the [Robot Perception Lab (RPL)](http://rpl.ri.cmu.edu){:target="\_blank"} under the supervision of Prof. Michael Kaess. My master research focused on improving the optimization methods in <a href="{{ '/projects/proj_vio/' | prepend: site.baseurl | prepend: site.url }}">visual-inertial state estimation</a>. 
 
 Prior to CMU, I received my B.S. in Computer Science from the Harvey Mudd College, where I was a member of the [Lab for Autonomous and Intelligent Robotics (LAIR)](https://www.lair.hmc.edu){:target="\_blank"}.
 {: .text-justify}
