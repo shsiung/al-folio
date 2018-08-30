@@ -8,7 +8,7 @@ date: 2018-08-24 13:32:20 +0300
 ---
 
 I was a member of the 2012-2013 HMC BattleBot Team, which goal is to build and compete in the 2013 
-RoboGames. We created a battlebot named Robespierre, which tje team designed and machined 
+RoboGames. We created a battlebot named Robespierre, which the team designed and machined;. 
 the entire robot ourselves. 
 
 - - -
