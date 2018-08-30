@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submodular Visual Feature Selection
-description: Fall 2017 Geometry-Based Vision course project
+description: Fall 2017 Geometry-Based Vision course project (CMU)
 img: /assets/img/proj_feature.gif
 date: 2018-08-20 10:32:20 +0300
 timeline: 2017

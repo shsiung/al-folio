@@ -25,9 +25,9 @@ Every components of the AUV, except the sensors, are designed and manufactured b
 
 - - -
 ### Takeaways:
-  1. How to plan a project and execute the plan under time constraint.
+  1. How to plan a project and execute the **plan under time constraint**.
   2. Do things in parallel.
-  3. How to build a functional robot from scratch.
+  3. How to build a functional **robot from scratch**.
 
 - - -
 
