@@ -31,7 +31,7 @@ In my thesis, I address two challenges in the fixed-lag smoothing framework --- 
   1. Employing information sparsification to address the efficiency issue.
   2. Employing group affine property to address the consistency problem
 
-For more details, please check my <a href="{{ '/assets/pdf/Hsiung18thesis.pdf' | prepend: site.baseurl | prepend: site.url }}">Master Thesis</a>  and my 2018 <a href="{{ '/assets/pdf/Hsiung18thesis.pdf' | prepend: site.baseurl | prepend: site.url }}">IROS paper</a>.
+For more details, please check my <a href="{{ '/assets/pdf/Hsiung18thesis.pdf' | prepend: site.baseurl | prepend: site.url }}">Master Thesis</a>  and my 2018 <a href="{{ '/assets/pdf/Hsiung18iros.pdf' | prepend: site.baseurl | prepend: site.url }}">IROS paper</a> (Best Conference Paper Finalist).
 
 <!-- 
 
